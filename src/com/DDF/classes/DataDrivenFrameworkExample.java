@@ -21,13 +21,13 @@ public class DataDrivenFrameworkExample {
 					Properties p = new Properties();
 					p.load(fis);
 					
-					String url = p.getProperty("url");
+					String urlLink = p.getProperty("url");
 					String principal_amount = p.getProperty("principal_amount");
 					String rate_of_interest = p.getProperty("rate_of_interest");
 					String desired_time = p.getProperty("desired_time");
 					
 					
-					driver.get(url);
+					driver.get(urlLink);
 					driver.findElement(By.linkText("General Math")).click();
 					Thread.sleep(3000);
 					
