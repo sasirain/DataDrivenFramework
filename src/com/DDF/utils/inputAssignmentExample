@@ -1,0 +1,7 @@
+url = https://www.webmath.com
+principal_amount=10000
+interest=7.6
+desired_time=5
+dropdown1value = Interest, Simple
+dropdown2value=Month
+dropdown3value=Month(s)
